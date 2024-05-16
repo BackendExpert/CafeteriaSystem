@@ -1,4 +1,5 @@
 import React from 'react'
+import MyIcons from '@reacticons/ionicons'
 
 const Footer = () => {
     const styles = {
@@ -9,14 +10,35 @@ const Footer = () => {
     // 
   return (
     <div>
-        <div className='py-14 lg:px-16 px-0 h-full lg:h-[80vh] h-auto text-white' style={styles}>
-            <div className="lg:grid grid-cols-2 gap-4">
+        <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto text-white food-font' style={styles}>
+            <div className="lg:grid grid-cols-2 gap-4 lg:mx-0 mx-8">
                 <div className=""></div>
                 <div className="">
                     <div className="">
                         <div className="lg:grid grid-cols-2 gap-2">
-                            <div className="">
-                                <h1 className="">The Cafe</h1>
+                            <div className="text-center">
+                                <h1 className="uppercase tracking-[0.6em]">The best Cafe</h1>
+                                <p className="my-4 ">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum, beatae facere assumenda praesentium id distinctio, dolorem inventore vel quasi earum ducimus voluptatem esse! Eligendi neque facere blanditiis quis quia.
+                                </p>
+                            </div>
+                            <div className="text-center my-8">
+                                <p className="text-5xl">
+                                    <MyIcons name='beer' size='large'></MyIcons>
+                                </p>
+                                <p className="uppercase tracking-[0.6em] my-2">Drinks</p>
+                            </div>
+                            <div className="text-center my-8">
+                                <p className="text-5xl">
+                                    <MyIcons name='beer' size='large'></MyIcons>
+                                </p>
+                                <p className="uppercase tracking-[0.6em] my-2">Drinks</p>
+                            </div>
+                            <div className="text-center my-8">
+                                <p className="text-5xl">
+                                    <MyIcons name='beer' size='large'></MyIcons>
+                                </p>
+                                <p className="uppercase tracking-[0.6em] my-2">Drinks</p>
                             </div>
                         </div>
                     </div>
