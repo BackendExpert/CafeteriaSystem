@@ -1,8 +1,19 @@
 import React from 'react'
 
 const HomePage = () => {
+  const styles = {
+    background: 'linear-gradient(to right, white, rgba(0,0,0,0.9)), url("https://wallpapercave.com/wp/wp12420121.jpg")',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }
   return (
-    <div>HomePage</div>
+    <div>
+        <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto ' style={styles}>
+          <div className="bg-none text-white mt-[-20px]">
+            Hi all
+          </div>
+        </div>
+    </div>
   )
 }
 
