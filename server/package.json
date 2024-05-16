@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/BackendExpert/CafeteriaSystem/issues"
   },
-  "homepage": "https://github.com/BackendExpert/CafeteriaSystem#readme"
+  "homepage": "https://github.com/BackendExpert/CafeteriaSystem#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "json2csv": "^6.0.0-alpha.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.7",
+    "nodemailer": "^6.9.13"
+  }
 }
