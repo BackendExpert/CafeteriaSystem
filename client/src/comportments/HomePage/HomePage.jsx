@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer'
 
 const HomePage = () => {
   const styles = {
@@ -26,6 +27,7 @@ const HomePage = () => {
 
           </div>
         </div>
+        <Footer />
     </div>
   )
 }
