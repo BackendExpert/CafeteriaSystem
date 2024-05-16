@@ -9,9 +9,9 @@ const HomePage = () => {
   return (
     <div>
         <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto ' style={styles}>
-          <div className="bg-none text-white ml-20">
+          <div className="bg-none text-white lg:ml-20 ml-0">
             <div className="lg:grid grid-cols-2 gap-4">
-              <div className="">
+              <div className="lg:mx-0 mx-4">
                 <h1 className="text-4xl rest-title">Welcome to Cafe </h1>
                 <p className="text-sm">The best Cafe</p>
 
