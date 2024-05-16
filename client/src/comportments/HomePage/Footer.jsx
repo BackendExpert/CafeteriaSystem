@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div>
         <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto text-white food-font' style={styles}>
-            <div className="lg:grid grid-cols-2 gap-4 lg:mx-0 mx-8">
+            <div className="lg:grid grid-cols-2 gap-4 lg:mx-0 mx-8 my-16">
                 <div className=""></div>
                 <div className="">
                     <div className="">
@@ -30,21 +30,23 @@ const Footer = () => {
                             </div>
                             <div className="text-center my-8">
                                 <p className="text-5xl">
-                                    <MyIcons name='beer' size='large'></MyIcons>
+                                    <MyIcons name='fast-food' size='large'></MyIcons>
                                 </p>
-                                <p className="uppercase tracking-[0.6em] my-2">Drinks</p>
+                                <p className="uppercase tracking-[0.6em] my-2">Fast-Foods, pastry</p>
                             </div>
                             <div className="text-center my-8">
                                 <p className="text-5xl">
-                                    <MyIcons name='beer' size='large'></MyIcons>
+                                    <MyIcons name='pizza' size='large'></MyIcons>
                                 </p>
-                                <p className="uppercase tracking-[0.6em] my-2">Drinks</p>
+                                <p className="uppercase tracking-[0.6em] my-2">Pizza</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
+            <div className="uppercase lg:tracking-[0.3em] text-center">
+                &copy; The Best Cafe - 2024 || Designed and Developed by JehanKandy
+            </div>
         </div>
     </div>
   )
