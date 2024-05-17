@@ -20,9 +20,9 @@ const HomePage = () => {
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, optio consequatur accusantium modi molestiae recusandae qui harum animi maxime hic! Facilis repudiandae deleniti nobis modi illum ducimus sit corrupti at.
                 </p>
 
-                <div className="flex">
-                  <button className="">Be A Member</button>
-                  <button className="">SignIn</button>                  
+                <div className="lg:flex">
+                  <button className="bg-yellow-500 py-4 px-8 rounded duration-500">Be A Member</button>
+                  <button className="mx-4 border border-yellow-500 rounded py-4 px-8 rounded duration-500 hover:bg-yellow-500">SignIn</button>                  
                 </div>
               </div>
               <div className="">
@@ -30,6 +30,14 @@ const HomePage = () => {
               </div>
             </div>
 
+          </div>
+        </div>
+
+
+        <div className="">
+          <div class="columns-3xs">
+            <img class="w-full aspect-video" src="" />
+            <img class="w-full aspect-square" src="" />
           </div>
         </div>
         <Footer />
