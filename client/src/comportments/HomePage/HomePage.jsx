@@ -35,10 +35,7 @@ const HomePage = () => {
 
 
         <div className="">
-          <div class="columns-3xs">
-            <img class="w-full aspect-video" src="" />
-            <img class="w-full aspect-square" src="" />
-          </div>
+          <h1 className="text-gray-500"></h1>
         </div>
         <Footer />
     </div>
