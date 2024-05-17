@@ -9,11 +9,11 @@ const Discount = () => {
           <div className="mx-16">    
             <div className="lg:grid grid-cols-2 gap-4">
             <div className="lg:flex my-12">
-              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <img src="https://wallpapercave.com/wp/wp1929360.jpg" alt="" className='h-40 w-auto rounded-xl'/>
               <div className="ml-6 my-4">
                 <h1 className="rest-title text-gray-500 text-3xl">Black Friday</h1>
                 <p className="my-2">
-                  Get up ta 30% OFF on Every Friday From 4.00pm to 7.30pm
+                  Get up to 30% OFF on Every Friday From 4.00pm to 7.30pm
                 </p>
               </div>
             </div>            
@@ -23,7 +23,7 @@ const Discount = () => {
               <div className="ml-6 my-4">
                 <h1 className="rest-title text-gray-500 text-3xl">Pizza Day</h1>
                 <p className="my-2">
-                  Get up ta 50% OFF on Selected Pizza
+                  Get up to 50% OFF on Selected Pizza
                 </p>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Discount = () => {
               <div className="ml-6 my-4">
                 <h1 className="rest-title text-gray-500 text-3xl">Bugur TuesDay</h1>
                 <p className="my-2">
-                    Get up ta 75% OFF on Bugurs on Tuesdays
+                    Get up to 75% OFF on Bugurs on Tuesdays
                 </p>
               </div>
             </div>
@@ -42,9 +42,9 @@ const Discount = () => {
             <div className="lg:flex my-12">
               <img src="https://wallpapercave.com/uwp/uwp4331656.jpeg" alt="" className='h-40 w-auto rounded-xl'/>
               <div className="ml-6 my-4">
-                <h1 className="rest-title text-gray-500 text-3xl">Coffice Monday</h1>
+                <h1 className="rest-title text-gray-500 text-3xl">Coffee Monday</h1>
                 <p className="my-2">
-                    Get up ta 50% OFF on Coffice on Mondays
+                    Get up to 50% OFF on Coffee on Mondays
                 </p>
               </div>
             </div>

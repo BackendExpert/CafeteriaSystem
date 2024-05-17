@@ -11,7 +11,7 @@ const HomePage = () => {
   }
   return (
     <div>
-        <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto ' style={styles}>
+        <div className='py-14 lg:px-16 px-0 h-full lg:h-[80vh] h-auto ' style={styles}>
           <div className="bg-none text-white lg:ml-20 ml-0">
             <div className="lg:grid grid-cols-2 gap-4">
               <div className="lg:mx-0 mx-4 my-8">
