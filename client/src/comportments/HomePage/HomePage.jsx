@@ -34,8 +34,26 @@ const HomePage = () => {
         </div>
 
 
-        <div className="">
-          <h1 className="text-gray-500"></h1>
+        <div className="my-16 mx-12">
+          <h1 className="text-center text-4xl rest-title text-gray-500">Discounts</h1>
+          <div className="lg:grid grid-cols-4 gap-4 my-8">
+            <div className="">
+              <div className="bg-[url(https://wallpapercave.com/wp/wp11905779.jpg)] bg-cover bg-center h-full duration-500 hover:text-3xl">
+                <h1 className="text-2xl rest-title text-white text-center py-16">Black Friday</h1>
+              </div>
+            </div>
+            <div className="">
+              <div className="bg-[url(https://wallpapercave.com/wp/wp12452172.jpg)] bg-cover bg-center h-full duration-500 hover:text-3xl">
+                <h1 className="text-2xl rest-title text-white text-center py-16">Black Friday</h1>
+              </div>
+            </div>
+            <div className="">
+              <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt="" className='h-auto rounded'/>
+            </div>
+            <div className="">
+              <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt="" className='h-auto rounded'/>
+            </div>
+          </div>
         </div>
         <Footer />
     </div>
