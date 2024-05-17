@@ -4,43 +4,57 @@ import MyIcons from '@reacticons/ionicons'
 const Discount = () => {
   return (
     <div>
-        <div className="my-24 mx-12">
+        <div className="my-24 lg:mx-12">
           <h1 className="text-center text-4xl rest-title text-gray-500">Discounts</h1>
-          <div className="lg:grid grid-cols-4 gap-6 my-16">
-            <div className="">
-                <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt="" />
-                <div className="text-center">
-                    <h1 className="text-3xl rest-title py-4">Black Friday</h1>
-                    <p className="">Get 10% OFF for Evey Product on Friday</p>
-                </div>
+          <div className="mx-16">    
+            <div className="lg:grid grid-cols-2 gap-4">
+            <div className="lg:flex my-12">
+              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <div className="ml-6 my-4">
+                <h1 className="rest-title text-gray-500 text-3xl">Black Friday</h1>
+                <p className="my-2">
+                  Get up ta 30% OFF on Every Friday From 4.00pm to 7.30pm
+                </p>
               </div>
-              
-              <div className="">
-                <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt="" />
-                <div className="text-center">
-                    <h1 className="text-3xl rest-title py-4">Pizza Day</h1>
-                    <p className="">Get 50% OFF for Selected Pizza</p>
-                </div>
-              </div>
+            </div>            
 
-              <div className="">
-                <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt="" />
-                <div className="text-center">
-                    <h1 className="text-3xl rest-title py-4">Bugur Wednesday</h1>
-                    <p className="">Get up to 25% OFF for Bugurs on Wednesdays</p>
-                </div>
+            <div className="lg:flex my-12">
+              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <div className="ml-6 my-4">
+                <h1 className="rest-title text-gray-500 text-3xl">Pizza Day</h1>
+                <p className="my-2">
+                  Get up ta 50% OFF on Selected Pizza
+                </p>
               </div>
+            </div>
 
-              <div className="">
-                <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt=""/>
-                <div className="text-center">
-                    <h1 className="text-3xl rest-title py-4">Black Coffie Moday</h1>
-                    <p className="">Get up to 40% OFF for Coffies on Every Mondays</p>
-                </div>
+
+            <div className="lg:flex my-12">
+              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <div className="ml-6 my-4">
+                <h1 className="rest-title text-gray-500 text-3xl">Bugur TuesDay</h1>
+                <p className="my-2">
+                    Get up ta 75% OFF on Bugurs on Tuesdays
+                </p>
               </div>
+            </div>
+
+            <div className="lg:flex my-12">
+              <img src="https://wallpapercave.com/uwp/uwp4331656.jpeg" alt="" className='h-40 w-auto rounded-xl'/>
+              <div className="ml-6 my-4">
+                <h1 className="rest-title text-gray-500 text-3xl">Coffice Monday</h1>
+                <p className="my-2">
+                    Get up ta 50% OFF on Coffice on Mondays
+                </p>
+              </div>
+            </div>
+
+            </div>        
+
 
 
           </div>
+
         </div>
     </div>
   )
