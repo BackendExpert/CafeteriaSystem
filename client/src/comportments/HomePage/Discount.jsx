@@ -33,7 +33,7 @@ const Discount = () => {
 
               <div className="">
                 <img src="https://wallpapercave.com/wp/wp11905779.jpg" alt=""/>
-                <div className="">
+                <div className="text-center">
                     <h1 className="text-3xl rest-title py-4">Black Friday</h1>
                     <p className="">Get 10% OFF for Evey Product on Friday</p>
                 </div>
