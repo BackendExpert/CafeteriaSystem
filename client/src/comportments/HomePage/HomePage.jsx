@@ -37,9 +37,6 @@ const HomePage = () => {
           <Discount />
         </div>
 
-        <div className="my-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla iusto amet corporis atque culpa expedita ducimus ut voluptate unde quod necessitatibus nesciunt totam porro, eos ad quibusdam facere perferendis excepturi.
-        </div>
 
 
 
