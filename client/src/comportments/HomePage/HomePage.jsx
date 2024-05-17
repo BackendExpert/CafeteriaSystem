@@ -19,6 +19,11 @@ const HomePage = () => {
                 <p className="my-4">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, optio consequatur accusantium modi molestiae recusandae qui harum animi maxime hic! Facilis repudiandae deleniti nobis modi illum ducimus sit corrupti at.
                 </p>
+
+                <div className="flex">
+                  <button className="">Be A Member</button>
+                  <button className="">SignIn</button>                  
+                </div>
               </div>
               <div className="">
  
