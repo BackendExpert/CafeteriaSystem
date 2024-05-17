@@ -4,7 +4,7 @@ import MyIcons from '@reacticons/ionicons'
 const Discount = () => {
   return (
     <div>
-                <div className="my-24 mx-12">
+        <div className="my-24 mx-12">
           <h1 className="text-center text-4xl rest-title text-gray-500">Discounts</h1>
           <div className="lg:grid grid-cols-4 gap-4 my-16">
             <div className="my-8">

@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import MyIcons from '@reacticons/ionicons'
+import Discount from './Discount'
 
 const HomePage = () => {
   const styles = {
@@ -31,6 +32,10 @@ const HomePage = () => {
             </div>
 
           </div>
+        </div>
+
+        <div className="">
+          <Discount />
         </div>
 
 
