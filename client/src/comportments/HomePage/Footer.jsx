@@ -3,7 +3,7 @@ import MyIcons from '@reacticons/ionicons'
 
 const Footer = () => {
     const styles = {
-        background: 'linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/premium-photo/amazing-homemade-pizza-black-stone-background_952778-18218.jpg?size=626&ext=jpg&ga=GA1.2.1865485918.1713421678&semt=ais_user")',
+        background: 'linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)), url("https://img.freepik.com/premium-photo/amazing-homemade-pizza-black-stone-background_952778-18218.jpg?size=626&ext=jpg&ga=GA1.2.1865485918.1713421678&semt=ais_user")',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }
