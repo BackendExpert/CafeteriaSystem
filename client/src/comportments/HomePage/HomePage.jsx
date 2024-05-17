@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from './Footer'
+import MyIcons from '@reacticons/ionicons'
 
 const HomePage = () => {
   const styles = {
@@ -12,16 +13,15 @@ const HomePage = () => {
         <div className='py-14 lg:px-16 px-0 h-full lg:h-auto h-auto ' style={styles}>
           <div className="bg-none text-white lg:ml-20 ml-0">
             <div className="lg:grid grid-cols-2 gap-4">
-              <div className="lg:mx-0 mx-4">
-                <h1 className="text-4xl rest-title">Welcome to Cafe </h1>
-                <p className="text-sm">The best Cafe</p>
-
-                <p className="my-4 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint odit necessitatibus, harum possimus, accusantium rerum tenetur officiis adipisci exercitationem labore. Quas laborum doloribus unde amet quidem incidunt facilis distinctio.
-                Enim unde dolorum culpa, eius hic odio, eligendi, voluptatum possimus accusamus ex quaerat reprehenderit totam cumque distinctio dolor ut saepe. Nobis ut saepe laudantium vero sunt sapiente reiciendis nulla rem?
-                Ut obcaecati nihil debitis ea sequi sapiente omnis iusto, maxime aliquam, at porro perferendis a laboriosam dignissimos eligendi, blanditiis laudantium tempora rem recusandae excepturi beatae numquam sed! Officiis, laboriosam enim.</p>
+              <div className="lg:mx-0 mx-4 my-8">
+                <p className="">Welcome to</p>
+                <h1 className="text-5xl tracking-[0.3em] rest-title">The Best Cafe</h1>
+                <p className="my-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, optio consequatur accusantium modi molestiae recusandae qui harum animi maxime hic! Facilis repudiandae deleniti nobis modi illum ducimus sit corrupti at.
+                </p>
               </div>
               <div className="">
-
+ 
               </div>
             </div>
 
