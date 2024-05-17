@@ -19,7 +19,7 @@ const Discount = () => {
             </div>            
 
             <div className="lg:flex my-12">
-              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <img src="https://wallpapercave.com/wp/wp12451912.jpg" alt="" className='h-40 w-auto rounded-xl'/>
               <div className="ml-6 my-4">
                 <h1 className="rest-title text-gray-500 text-3xl">Pizza Day</h1>
                 <p className="my-2">
@@ -30,7 +30,7 @@ const Discount = () => {
 
 
             <div className="lg:flex my-12">
-              <img src="https://wallpapercave.com/wp/wp12451765.jpg" alt="" className='h-40 w-auto rounded-xl'/>
+              <img src="https://wallpapercave.com/wp/wp11905761.jpg" alt="" className='h-40 w-auto rounded-xl'/>
               <div className="ml-6 my-4">
                 <h1 className="rest-title text-gray-500 text-3xl">Bugur TuesDay</h1>
                 <p className="my-2">
