@@ -40,7 +40,7 @@ const HomePage = () => {
 
 
 
-        <div className="my-16">
+        <div className="">
         <Footer />
         </div>
 
