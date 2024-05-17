@@ -18,7 +18,6 @@ const Footer = () => {
                         <div className="lg:grid grid-cols-2 gap-2">
                             <div className="text-center">
                                 <h1 className="uppercase tracking-[0.6em]">The best Cafe</h1>
-                                <p className="my-4 text-center">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt cum, beatae facere assumenda praesentium id distinctio, dolorem inventore vel quasi earum ducimus voluptatem esse! Eligendi neque facere blanditiis quis quia.
                                 </p>
                             </div>

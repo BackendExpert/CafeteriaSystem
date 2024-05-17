@@ -16,7 +16,7 @@ const HomePage = () => {
                 <h1 className="text-4xl rest-title">Welcome to Cafe </h1>
                 <p className="text-sm">The best Cafe</p>
 
-                <p className="my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint odit necessitatibus, harum possimus, accusantium rerum tenetur officiis adipisci exercitationem labore. Quas laborum doloribus unde amet quidem incidunt facilis distinctio.
+                <p className="my-4 text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis sint odit necessitatibus, harum possimus, accusantium rerum tenetur officiis adipisci exercitationem labore. Quas laborum doloribus unde amet quidem incidunt facilis distinctio.
                 Enim unde dolorum culpa, eius hic odio, eligendi, voluptatum possimus accusamus ex quaerat reprehenderit totam cumque distinctio dolor ut saepe. Nobis ut saepe laudantium vero sunt sapiente reiciendis nulla rem?
                 Ut obcaecati nihil debitis ea sequi sapiente omnis iusto, maxime aliquam, at porro perferendis a laboriosam dignissimos eligendi, blanditiis laudantium tempora rem recusandae excepturi beatae numquam sed! Officiis, laboriosam enim.</p>
               </div>
