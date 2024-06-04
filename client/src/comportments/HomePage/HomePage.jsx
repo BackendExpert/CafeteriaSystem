@@ -3,10 +3,17 @@ import Footer from './Footer'
 import MyIcons from '@reacticons/ionicons'
 import Discount from './Discount'
 import bekaryImg from '../../assets/bekary1.jpg'
+import bgCafe from '../../assets/bgcafe.jpg'
 
 const HomePage = () => {
   const styles = {
     background: `linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("${bekaryImg}")`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+  }
+
+  const styles2 = {
+    background: `linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("${bgCafe}")`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
@@ -34,7 +41,7 @@ const HomePage = () => {
 
           </div>
         </div>
-        <div className="">
+        <div className="" style={styles2}>
           <Discount />
         </div>
 

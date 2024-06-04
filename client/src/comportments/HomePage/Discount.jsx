@@ -1,13 +1,9 @@
 import React from 'react'
 import MyIcons from '@reacticons/ionicons'
-import bgCafe from '../../assets/bgcafe.jpg'
+
 
 const Discount = () => {
-  const styles = {
-    background: `linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("${bgCafe}")`,
-    backgroundSize: 'cover',
-    backgroundPosition: 'center',
-  }
+
   return (
     <div>
         <div className="py-24 md:px-12">
