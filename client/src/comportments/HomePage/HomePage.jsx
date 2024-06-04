@@ -2,10 +2,11 @@ import React from 'react'
 import Footer from './Footer'
 import MyIcons from '@reacticons/ionicons'
 import Discount from './Discount'
+import bekaryImg from '../../assets/bekary1.jpg'
 
 const HomePage = () => {
   const styles = {
-    background: 'linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("https://img.freepik.com/free-photo/top-view-delicious-muffins-with-nuts-copy-space_23-2148833985.jpg?size=626&ext=jpg&ga=GA1.1.1865485918.1713421678&semt=ais_user")',
+    background: `linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("${bekaryImg}")`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
   }
