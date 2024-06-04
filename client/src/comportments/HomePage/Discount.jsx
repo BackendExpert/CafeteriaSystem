@@ -6,7 +6,7 @@ const Discount = () => {
 
   return (
     <div>
-        <div className="py-24 md:px-12 text-white">
+        <div className="py-24 md:px-12 px-8 text-white">
             <h1 className="food-font text-center text-4xl">Latest Products</h1>
 
             <div className="my-8">
