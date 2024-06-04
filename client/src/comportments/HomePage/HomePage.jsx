@@ -41,9 +41,11 @@ const HomePage = () => {
 
           </div>
         </div>
+        <hr />
         <div className="" style={styles2}>
           <Discount />
         </div>
+        <hr />
 
 
 
