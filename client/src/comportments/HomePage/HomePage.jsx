@@ -33,7 +33,7 @@ const HomePage = () => {
 
           </div>
         </div>
-        <div className="mb-16">
+        <div className="">
           <Discount />
         </div>
 
