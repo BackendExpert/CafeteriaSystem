@@ -11,17 +11,25 @@ const Discount = () => {
 
             <div className="my-8">
               <div className="md:grid grid-cols-4 gap-4">
-                <div className="">
+                <div className="bg-orange-700 py-8 md:px-10 px-6 rounded ">
+                  <p className="text-center">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, asperiores tenetur! Maxime at ipsa dolore culpa mollitia corporis, excepturi ea numquam omnis enim vero. Minus ullam debitis consequatur sunt omnis.
+                  </p>
                 </div>
-                <div className="">
+                <div className="bg-orange-700 py-8 md:px-10 px-6 rounded ">
+                  <p className="text-center">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, asperiores tenetur! Maxime at ipsa dolore culpa mollitia corporis, excepturi ea numquam omnis enim vero. Minus ullam debitis consequatur sunt omnis.
+                  </p>
                 </div>
-                <div className="">
+                <div className="bg-orange-700 py-8 md:px-10 px-6 rounded ">
+                  <p className="text-center">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, asperiores tenetur! Maxime at ipsa dolore culpa mollitia corporis, excepturi ea numquam omnis enim vero. Minus ullam debitis consequatur sunt omnis.
+                  </p>
                 </div>
-                <div className="">
+                <div className="bg-orange-700 py-8 md:px-10 px-6 rounded ">
+                  <p className="text-center">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, asperiores tenetur! Maxime at ipsa dolore culpa mollitia corporis, excepturi ea numquam omnis enim vero. Minus ullam debitis consequatur sunt omnis.
+                  </p>
                 </div>
               </div>
             </div>
